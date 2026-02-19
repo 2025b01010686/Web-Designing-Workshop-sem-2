@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp9075024.jpg);
+    background-size: cover;
+}
+
+#gta{
+    float: right;
+    margin-right: 0rem;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 0rem;
+}
+.main{
+    justify-items: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    height: 7rem;
+}
+.nav{
+    align-content: space-evenly;
+}
+
+.c, .l, .a, .s, .S{
+    margin: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.c:hover, .l:hover, .a:hover, .s:hover, .S:hover{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.map, .char, .weapons{
+    color: white;
+    justify-items: center;
+    margin: 2rem;
+}
+.bottom{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+}
