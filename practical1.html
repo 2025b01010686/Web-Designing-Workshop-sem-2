@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Pattern Generator</title>
+</head>
+
+<body>
+    <div class="pattern-generator">
+        <h2>Pattern Generator</h2>
+        <input type="number" id="rows" placeholder="Enter number of rows">
+        <br>
+        <button onclick="generatePattern()">Generate</button>
+        <div id="pattern-output"></div>
+    </div>
+</body>
+
+<style>
+    .pattern-generator{
+        text-align: center;
+        padding: 50px;
+        background-color: lightpink;
+        width: 500px;
+        border-radius: 50px;
+        border-color: black;
+    }
+</style>
+<script>
+    function generatePattern(){
+        let n = document.getElementById('rows').value
+        let output = "";
+        for (let i=1; i<=n; i++){
+            for(let j=1; j<=i; j++){
+                output += j;
+            }
+            output += "<br>";
+        }
+        document.getElementById('pattern-output').innerHTML=output;
+    }
+</script>
+
+</html>
+
