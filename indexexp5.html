@@ -1,0 +1,108 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Salary Management </title>
+</head>
+<body>
+    <div class="container">
+        <h2>Employee Salary Managemnet System</h2>
+
+        <input type="text" id="name" placeholder="Enployee Name">
+        <input type="text" id="empID" placeholder="Employee ID">
+        <input type="number" id="salary" placeholder="Enployee Salary">
+        <input type="text" id="dept" placeholder="Employee Department">
+
+        <button onclick="addEmployee()">Add Employee</button><br>
+        <button onclick="displayEmployee()">Display All</button>
+        <button onclick="filterSalary()">Salary > 50000</button>
+        <button onclick="totalSalary()">Total Salary</button>
+        <button onclick="averageSalary()">Average Salary</button><br>
+        <button onclick="countDepartment()">Count by Department</button><br>
+
+        <div id="output"></div>
+        
+    </div>
+
+    <script src="mainexp5.jsx"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Employee Salary Management</title> 
+    <script src="mainexp5.jsx"></script> 
+    <style>
+        * { 
+    margin: 0; 
+    padding: 0; 
+    font-family: monospace;} 
+body { 
+    background-color: #213C51; 
+    display: flex; 
+    align-content: center; 
+    justify-content: center;} 
+.container { 
+    background-color: #EEEEEE; 
+    width: 600px; 
+    height: auto; 
+    margin-top: 60px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px #EEEEEE;} 
+h2 { 
+    margin: 20px; 
+    color: #6594B1; 
+    font-size: 30px;} 
+input { 
+    width: 300px; 
+    height: 20px; 
+    background-color: aliceblue; 
+    border: 1px solid #DDAED3; 
+    border-radius: 5px; 
+    text-align: center;} 
+.buttons { 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;} 
+button { 
+    background-color: #DDAED3; 
+    color: aliceblue; 
+    border: 0; 
+    border-radius: 5px; 
+    height: 30px; 
+    width: 30%; 
+    margin: 20px;} 
+#output { 
+    margin-bottom: 20px;} 
+#output h3 { 
+    color: #213C51;}
+    </style>
+</head> 
+<body> 
+    <div class="container"> 
+        <h2>Employee Salary Management System</h2> 
+        <input type="text" id="name" placeholder="Employee name"><br> 
+        <input type="text" id="empId" placeholder="Employee ID"><br> 
+        <input type="number" id="salary" placeholder="Salary"><br> 
+        <input type="text" id="dept" placeholder="Department"><br> 
+        <div class="buttons"> 
+            <button onclick="addEmployee()">ADD EMPLOYEE</button><br> 
+            <button onclick="displayEmployees()">DISPLAY ALL DETAILS</button><br> 
+            <button onclick="filterSalary()">FILTER SALARY</button><br> 
+            <button onclick="totalSalary()">TOTAL SALARY</button><br> 
+            <button onclick="averageSalary()">AVERAGE SALARY</button><br> 
+            <button onclick="countDepartment()" id="last-button">COUNT BY DEPARTMENT</button> 
+        </div> 
+        <div id="output"></div> 
+    
+</body> 
+</html> 
