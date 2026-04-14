@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Hello JavaScript</h2>
+    <script>
+        //let, var and const
+        //typeof _
+        //console.log("Saanvi Saxena");
+        const student = { 
+            fullName : "Rahul",
+            age : 19,
+            cgpa: 8.7, 
+            isPass : true
+        };
+        student["age"]= student["age"]+1;
+        //console.log(student.cgpa);
+        //console.log(student["age"]);
+        console.log(typeof student["fullName"]);
+        //arrow function
+        // const add = (a,b) => a+b;
+        // console.log(add(5,3))
+
+        //map()
+        // let num= [1,2,3,4];
+        // let square= num.map(num => num*num);
+        // console.log(square);
+
+        //filter()
+
+        // let num= [10,15,20,25];
+        // let result= num.filter(num => num>15);
+        // console.log(result);
+
+        //reducer()
+        // let num= [10,20,30];
+        // let sum= num.reduce((total,num)=> total + num, 0);
+        // console.log(sum);
+
+        // let student = {
+        //     name: "Saanvi",
+        //     age: 18
+        // };
+        // let jsonData= JSON.stringify(student);
+        // console.log(jsonData);
+
+        // let jsonString= '{"name":"Saanvi","age":18}';
+        // let obj = JSON.parse(jsonString);
+        // console.log(jsonString);
+
+        // let student = {
+        //     name:"Rahul",
+        //     age:21,
+        //     course: "CSE"
+        // };
+
+        // for(let key in student){
+        //     console.log(key + " : " + student[key]);
+        // }
+
+        // let numbers= [10,20,30,40];
+        // for(let value of numbers){
+        //     console.log(value);
+        // }
+
+        //Traditional Function
+        // function add(a,b){
+        //     returun a+b;
+        // }
+        //Arrow function
+        // const add = (a,b) => a+b;
+        // console.log(add(5,3));
+
+
+        // let promise= new Promise(function(resolve,reject){
+        //     let success = true;
+        //     if(success)
+        //     resolve("Task completed");
+        //     else
+        //     reject("Task failed");
+        // });
+
+        // promise.then(function(result){
+        //     console.log(result);
+        // }).catch(function(error){
+        //     console.log(error);
+        // });
+
+        //error handling
+        // try{
+        //     let x=y+10;
+        // }catch(error){
+        //     console.log("Error occured");
+        // }
+
+        //async/await
+
+        // function getdata(){
+        //     result new Promise(reslove=>(
+        //         setTimeout{()=>(
+        //             resolve("Data Received");
+
+        //         ),2000);}
+        //     )};
+        // }
+        
+        // localStorage.setItem("username","rahul");
+
+        // let name = localStorage.getItem("username");
+        // console.log(name);
+
+        // localStorage.removeItem
+
+        //Fetch API
+        // fetch("https://jsonplaceholder.typicode.com/users"
+        //     .then(response => response.json())
+        //     .then(data => console.log(data))
+        //     .catch(error => console.log(error));
+        // )
+    </script>
+</body>
+</html>
