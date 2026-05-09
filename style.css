@@ -1,4 +1,4 @@
-body{
+/* body{
     background-image: url(https://wallpapercave.com/wp/wp9075024.jpg);
     background-size: cover;
 }
@@ -49,4 +49,35 @@ h1{
     display: flex;
     margin-top: 4rem;
     justify-content: space-evenly;
+} */
+
+
+/* h1{
+    color: blue;
+    text-decoration: line-through;
+    background-color: rgb(215, 112, 112);
+}
+
+.head{
+    background-color: yellow;
+}
+
+body{
+    background-color: pink;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+} */
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-style: dotted;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: aquamarine;
 }
