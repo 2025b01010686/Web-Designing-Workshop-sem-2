@@ -1,83 +1,48 @@
-/* body{
-    background-image: url(https://wallpapercave.com/wp/wp9075024.jpg);
-    background-size: cover;
-}
-
-#gta{
-    float: right;
-    margin-right: 0rem;
-}
-
-h1{
-    font-size: 3rem;
-    margin-bottom: 0rem;
-}
-.main{
-    justify-items: center;
-}
-
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: space-between;
-    font-size: 1.5rem;
-    background-color: black;
+header {
+    background-color: #4486E4; /* Matching the blue in the image */
     color: white;
-    height: 7rem;
-}
-.nav{
-    align-content: space-evenly;
-}
-
-.c, .l, .a, .s, .S{
-    margin: 5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.c:hover, .l:hover, .a:hover, .s:hover, .S:hover{
-    font-size: 1.7rem;
-    cursor: pointer;
-}
-.map, .char, .weapons{
-    color: white;
-    justify-items: center;
-    margin: 2rem;
-}
-.bottom{
-    display: flex;
-    margin-top: 4rem;
-    justify-content: space-evenly;
-} */
-
-
-/* h1{
-    color: blue;
-    text-decoration: line-through;
-    background-color: rgb(215, 112, 112);
-}
-
-.head{
-    background-color: yellow;
-}
-
-body{
-    background-color: pink;
-}
-
-button{
-    background-color: blueviolet;
-    color: white;
-} */
-
-.box{
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    border-style: dotted;
-    border-radius: 10px;
-    margin: 5px;
+    padding: 60px 0;
     text-align: center;
-    background-color: aquamarine;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #222222; /* Dark grey/black background */
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+/* Main Content Styling */
+.content-section {
+    background-color: #EEEEEE; /* Light grey background */
+    padding: 80px 20px;
+    min-height: 300px;
+}
+
+/* Vertical Divider for Desktop (Medium screens and up) */
+@media (min-width: 768px) {
+    .col-divider {
+        border-left: 2px solid #333;
+        height: 100%;
+        padding-left: 30px;
+    }
+}
+
+/* Adjustment for Mobile (Remove divider, add top margin) */
+@media (max-width: 767px) {
+    .col-divider {
+        margin-top: 30px;
+        border-left: none;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
 }
